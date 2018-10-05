@@ -4,7 +4,7 @@ This shader is my first attempt to produce animated Voronoi diagrams. They arise
 
 ## Mathematical note
 
-Distance may be defined in terms of any valid distance metric, but generally some form of Minkowski distance, such as Euclidean distance (order 2) or Manhattan distance (order 1). Here I'm using the latter. 
+Distance may be defined in terms of any valid distance metric, but generally some form of Minkowski distance, such as Euclidean distance (order 2) or Manhattan distance (order 1). Here I'm using the latter (sum of the differences of the components of the vectors). 
 
 ## Algorithm
 
@@ -21,4 +21,5 @@ make the pixel black, as it's on the edge.
 
 ## Note
 
-I think there is a flaw somewhere in my algorithm or the implementation thereof, as eventually black quads appear and continue to expand.  I haven't got around to debugging this yet, though.   
+I think there is a flaw somewhere in my algorithm or the implementation thereof, as eventually black quads appear and continue to expand.  I haven't got around to debugging this yet, though.
+
