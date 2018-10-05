@@ -4,7 +4,7 @@ This shader is my first attempt to produce animated Voronoi diagrams. They arise
 
 ## Context
 
-I am using a template I previously created, [polypane](https://github.com/teraspora/polypane), which allows me to display `n<sup>2</sup>` tiles, each running the same code but with different parameters.
+I am using a template I previously created, [polypane](https://github.com/teraspora/polypane), which allows me to display `n`<sup>`2`</sup> tiles, each running the same code but with different parameters.
 
 ## Mathematical note
 
