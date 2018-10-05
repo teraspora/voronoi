@@ -23,7 +23,7 @@ it's roughly equidistant from the two nearest points, so
 make the pixel black, as it's on the edge.
 * This means regions of the plane are coloured according to their closest point, and black edges delineate the edges of these regions, or the loci of equidistance to the two nearest points.
 
-## Note
+## Caveat
 
 I think there is a flaw somewhere in my algorithm or the implementation thereof, as eventually black quads appear and continue to expand.  I haven't got around to debugging this yet, though.
 
