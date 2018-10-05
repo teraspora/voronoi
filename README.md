@@ -2,6 +2,10 @@
 
 This shader is my first attempt to produce animated Voronoi diagrams. They arise from plotting a number of "fixed points", then plotting the loci of points that are equidistant from the two nearest fixed points. Here I'm animating the results by varying some parameters with time, like the number of fixed points, the speed of rotation etc.. Voronoi diagrams result in tesselations of the plane, and have a wide range of applications ranging from fluid dynamics, the study of bone growth, forest growth patterns, rainfall measurement, aviation, video game collision detection and a host more!
 
+## Context
+
+I am using a template I previously created which allows me to display `n`<sup>`2`</sup> tiles, each running the same code but with different parameters.
+
 ## Mathematical note
 
 Distance may be defined in terms of any valid distance metric, but generally some form of Minkowski distance, such as Euclidean distance (order 2) or Manhattan distance (order 1). Here I'm using the latter (sum of the differences of the components of the vectors). 
